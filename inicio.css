@@ -59,15 +59,14 @@ nav ul li a:hover::after{
 }
 .text-box{
     overflow-wrap: break-word;
-    height: 50%;
-    
     inline-size: 70%;
     display: block;
     color: #fff;
-    position: absolute;
-    bottom: 5%;
-    padding: 0 8%;
+    position: static;
+    bottom: 12%;
+    padding: 10% 8%;
     animation: fadeInToRight 3s forwards;
+    width: 70%;
 }
 @keyframes fadeInToRight{
     0%{
