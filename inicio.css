@@ -67,7 +67,6 @@ nav ul li a:hover::after{
     padding: 10% 8%;
     animation: fadeInToRight 3s forwards;
     width: 70%;
-    animation: fadeInToRight 3s forwards;
 }
 @keyframes fadeInToRight{
     0%{

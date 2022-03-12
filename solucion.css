@@ -1,25 +1,23 @@
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
 body{
-    background-image: linear-gradient(to right,#cebd26,#8fd41f);
+    background-image: linear-gradient(to right,#72e4d5,#e7e43f);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;    
     background-size: cover;
 }    
 nav{
-    background-image: linear-gradient(to right,#c8d38c,#8f886a);
+    background-image: linear-gradient(to right,#ffffff,#92cccc);
     display: flex;
     width: 100%;
     align-items: center;
     flex-wrap: wrap;
     padding: 5px 0;
-    box-sizing: border-box;
 }
 
 .logo{
@@ -39,11 +37,12 @@ nav ul li{
     margin: 10px 30px;
 }
 nav ul li a{
-    color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     position: relative;
+    text-align: center;
 }
 nav ul li a::after{
     content: '';
@@ -80,21 +79,17 @@ nav ul li a:hover::after{
         transform: translateX(5%);
     }
 }
+
 .text-box p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     
 }
 .text-box h1{
-    font-size: 190px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 100px;
     line-height: 160px;
     margin-left: -10px;
-    color: transparent;
-    -webkit-text-stroke: 1px #fff;
-    background: url(img/backVigreeze.jpg);
-    -webkit-background-clip: text;
-    background-position: 10px 0;
-    animation: back 20s linear infinite;
 }
 
 @keyframes back{
@@ -102,7 +97,6 @@ nav ul li a:hover::after{
        background-position: 2000px 0; 
     }
 }
-
 @media screen and (max-width: 800px){
     .text-box{
         width: 100%;

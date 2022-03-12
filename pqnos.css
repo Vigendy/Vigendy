@@ -6,14 +6,14 @@
     font-family: 'poppins', sans-serif;
 }
 body{
-    background-image: linear-gradient(to right,#e2a378,#deff26);
+    background-image: linear-gradient(to right,#e7e43f,#e2a378);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;    
     background-size: cover;
 }     
 nav{
-    background-image: linear-gradient(to right,#c8d38c,#8f886a);
+    background-image: linear-gradient(to right,#ffffff,#92cccc);
     display: flex;
     width: 100%;
     align-items: center;
@@ -39,7 +39,7 @@ nav ul li{
     margin: 10px 30px;
 }
 nav ul li a{
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
@@ -86,6 +86,7 @@ nav ul li a:hover::after{
     
 }
 .text-box h1{
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 100px;
     line-height: 160px;
     margin-left: -10px;
