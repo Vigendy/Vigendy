@@ -1,0 +1,183 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+
+}
+
+/*-------------------------------Nav-Bar-----------------------------------*/
+
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, rgb(84, 72, 105), rgb(84, 72, 105));
+    padding: 0 !important;
+} 
+
+.navbar-brand img
+{
+    height: 50px;
+}
+
+.navbar-nav li
+{
+    padding: 0 17px;
+}
+
+.navbar-nav li a
+{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(182, 182, 182) !important;
+}
+
+.navbar-nav li img
+{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(182, 182, 182) !important;
+}
+
+.navbar-nav li a:hover
+{
+    color: #fff !important;
+    transition-duration: 0.5s;
+}   
+
+/*-------------------------------Banner-----------------------------------*/
+
+#banner
+{
+    color: black;
+    padding-top: 5%;
+}
+
+.display-1
+{
+    text-align: center;
+}
+
+.col-xl p
+{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*--------------------------------Nosotros-----------------------------------*/
+
+#nosotros
+{
+    padding: 150px 0;
+}
+.nosotros
+{
+    padding: 20px
+}
+
+.nosotros p
+{
+    font-size: 30px;
+    
+}
+
+.nosimg
+{
+    height: 10%;
+}
+
+/*--------------------------------Mision-----------------------------------*/
+
+#Mision
+{
+    padding: 150px 0;
+}
+.mision
+{
+    padding: 20px
+}
+
+.container p
+{
+    font-size: 30px;
+}
+
+/*--------------------------------Vision-----------------------------------*/
+
+#vision
+{
+    padding: 150px 0;
+}
+.nosotros
+{
+    padding: 20px
+}
+
+.nosotros p
+{
+    font-size: 30px; 
+}
+
+/*--------------------------------Valores-----------------------------------*/
+
+#valores
+{
+    padding: 50px 0;
+}
+.service-img
+{
+    padding-top: 20px;
+    width: 200px;
+}
+.services
+{
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.services p
+{
+    padding-top: 20px;
+    text-align: center;
+}
+
+/*--------------------------------Proyectos-----------------------------------*/
+#proyectos
+{
+    padding: 40px 0;
+}
+
+.Proyectos-img
+{
+
+    height: 500px;
+}
+
+.proyectosRow
+{
+    padding: 30px;   
+}
+
+.proyectos
+{
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*--------------------------------Contacto-----------------------------------*/
+#contacto
+{
+    padding: 40px;
+}
