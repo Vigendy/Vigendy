@@ -97,3 +97,35 @@ body
 {
     height: 10%;
 }
+
+/*--------------------------------Mision-----------------------------------*/
+
+#Mision
+{
+    padding: 150px 0;
+}
+.mision
+{
+    padding: 20px
+}
+
+.container p
+{
+    font-size: 30px;
+}
+
+/*--------------------------------Vision-----------------------------------*/
+
+#vision
+{
+    padding: 150px 0;
+}
+.nosotros
+{
+    padding: 20px
+}
+
+.nosotros p
+{
+    font-size: 30px;
+}
