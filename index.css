@@ -150,4 +150,26 @@ body
 {
     padding-top: 20px;
     text-align: center;
+}/*--------------------------------Proyectos-----------------------------------*/
+#proyectos
+{
+    padding: 40px 0;
 }
+
+.Proyectos-img
+{
+
+    height: 500px;
+}
+
+.proyectosRow
+{
+    padding: 30px;   
+}
+
+.proyectos
+{
+    margin: 0 auto;
+    padding: 20px;
+}
+
